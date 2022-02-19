@@ -1,40 +1,30 @@
 public class Main {
     public static void main(String[] args) {
-        Cat firstCat = new Cat("Мышкин", "Белый", 5);
-        Dog firstDog = new Dog("Бобик", "Черный", 10);
-        Bird firstBird = new Bird("Чижик", "Желтый", 2, 5);
-        Parrot firstParrot = new Parrot("Полли", "Радужный", 1, 3);
-        Snake firstSnake = new Snake(8, "Нагайна", "Пятнистая");
+        // восстановить int[5] = 4;
+        try {
+            int[] ints = new int[4];
+            ints[5] = 5; // кидает ArrayIndexOutOfBoundsException
+            System.out.println(ints[5]);
+        } catch (ArrayIndexOutOfBoundsException ex) {
+            System.out.println(ex.getMessage());
+        }
 
-        callVoice(firstCat);
-        callVoice(firstDog);
-        callVoice(firstBird);
-        callVoice(firstParrot);
-        callVoice(firstSnake);
+        try {
+            int test = 1 / 0; // кидает ArithmeticException
+        } catch (ArithmeticException ex) {
+            System.out.println(ex.getMessage());
+        }
 
-        Car firstCar = new Car();
 
-        callMove(firstCar);
-        callMove(firstParrot);
-        callMove(firstCat);
+        Cat cat = new Cat("Мышкин", "Белый", 10);
+        Plate plate = new Plate(10);
+        cat.appetite = 20;
 
-        Fruits fruit = Fruits.orange;
-
-        switch (fruit) {
-            case apple:
-                System.out.println("Яблоко");
-                break;
-            case orange:
-                System.out.println("Апельсин");
-                break;
+        try {
+            cat.eat(plate);
+        } catch (EmptyFoodInPlate emptyFoodInPlate) {
+            System.out.println(emptyFoodInPlate.getMessage());
         }
     }
 
-    public static void callVoice(Animal animal) {
-        animal.voice();
-    }
-
-    public static void callMove(Movable movable) {
-        movable.move();
-    }
 }

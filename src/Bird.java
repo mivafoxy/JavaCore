@@ -9,4 +9,8 @@ public class Bird extends Animal {
     public void voice() {
         System.out.println(name + " чирик");
     }
+
+    public Bird getClone() throws CloneNotSupportedException {
+        return (Bird) this.clone();
+    }
 }
