@@ -1,5 +1,7 @@
+package firstLesson;
+
 public abstract class Animal implements Movable {
-    // Animal this = *адрес_объекта*
+    // firstLesson.Animal this = *адрес_объекта*
     protected int age;
     protected String name;
     protected String color;

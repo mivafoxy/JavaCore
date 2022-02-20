@@ -1,3 +1,5 @@
+package firstLesson;
+
 public class Cat extends Animal {
     public int appetite;
 

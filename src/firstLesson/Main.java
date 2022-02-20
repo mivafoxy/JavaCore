@@ -1,3 +1,5 @@
+package firstLesson;
+
 public class Main {
     public static void main(String[] args) {
         // восстановить int[5] = 4;

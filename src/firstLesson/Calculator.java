@@ -1,3 +1,5 @@
+package firstLesson;
+
 public class Calculator {
     public static double action(double first, double second) {
         try {

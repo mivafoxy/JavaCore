@@ -1,3 +1,5 @@
+package firstLesson;
+
 public class Plate {
     public int food;
 

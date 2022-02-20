@@ -1,3 +1,5 @@
+package firstLesson;
+
 public class Snake extends Animal {
     public Snake(int age, String name, String color) {
         super(age, name, color);

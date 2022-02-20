@@ -1,3 +1,5 @@
+package firstLesson;
+
 public class Bird extends Animal {
     int height;
 

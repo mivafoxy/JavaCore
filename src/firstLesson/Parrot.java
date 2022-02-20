@@ -1,3 +1,5 @@
+package firstLesson;
+
 public class Parrot extends Bird {
     public Parrot(String newName, String newColor, int newAge, int height) {
         super(newName, newColor, newAge, height);
