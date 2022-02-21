@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04fb14dc-c09d-4666-8990-6fed736d75b5" name="Changes" comment="First lesson">
+    <list default="true" id="04fb14dc-c09d-4666-8990-6fed736d75b5" name="Changes" comment="Перенес все в пакеты">
       <change afterPath="$PROJECT_DIR$/src/secondLesson/Coffee.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/secondLesson/Cup.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/secondLesson/Liquid.java" afterDir="false" />
@@ -12,20 +12,6 @@
       <change afterPath="$PROJECT_DIR$/src/secondLesson/Vegetables.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/secondLesson/Water.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstLesson/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstLesson/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstLesson/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstLesson/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstLesson/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstLesson/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstLesson/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmptyFoodInPlate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstLesson/EmptyFoodInPlate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fruits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstLesson/Fruits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstLesson/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Movable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstLesson/Movable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Parrot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstLesson/Parrot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstLesson/Plate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstLesson/Snake.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +21,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Exceptions" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -118,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644873375216</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Перенес все в пакеты">
+      <created>1645383983976</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645383983976</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +127,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First lesson" />
-    <option name="LAST_COMMIT_MESSAGE" value="First lesson" />
+    <MESSAGE value="Перенес все в пакеты" />
+    <option name="LAST_COMMIT_MESSAGE" value="Перенес все в пакеты" />
   </component>
 </project>
