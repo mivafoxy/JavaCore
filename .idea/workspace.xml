@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04fb14dc-c09d-4666-8990-6fed736d75b5" name="Changes" comment="Collections">
-      <change afterPath="$PROJECT_DIR$/src/fourthLesson/Main.java" afterDir="false" />
+    <list default="true" id="04fb14dc-c09d-4666-8990-6fed736d75b5" name="Changes" comment="Streams">
+      <change afterPath="$PROJECT_DIR$/src/fifthLesson/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fifthLesson/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fifthLesson/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fourthLesson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fourthLesson/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +55,26 @@
   <component name="ReaderModeSettings">
     <option name="showLigatures" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="secondLesson.Main" />
+  <component name="RunManager" selected="Application.HttpClient">
+    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fifthLesson.EchoClient" />
       <module name="FirstLesson" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="secondLesson.*" />
+          <option name="PATTERN" value="fifthLesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fifthLesson.HttpClient" />
+      <module name="FirstLesson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fifthLesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,19 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="firstLesson.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fifthLesson.Main" />
       <module name="FirstLesson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fifthLesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HttpClient" />
+        <item itemvalue="Application.EchoClient" />
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645956812043</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Streams">
+      <created>1646073949894</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1646073949894</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +194,7 @@
     <MESSAGE value="Перенес все в пакеты" />
     <MESSAGE value="Generics" />
     <MESSAGE value="Collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collections" />
+    <MESSAGE value="Streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="Streams" />
   </component>
 </project>
